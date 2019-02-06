@@ -55,7 +55,7 @@ public class Dao {
             this.stmt.executeUpdate("CREATE TABLE IF NOT EXISTS COMBINATION (ID INTEGER PRIMARY KEY AUTO_INCREMENT," +
                     " User VARCHAR(20), Soluzione VARCHAR(20), Data_Operazione VARCHAR(30))");
             this.stmt.executeUpdate("CREATE TABLE IF NOT EXISTS TRY (ID_COMB INTEGER ," +
-                    " ID INTEGER PRIMARY KEY AUTO_INCREMENT, POS_ESATTA INTEGER, NUM_ESATTO INTEGER, VALORI_INSERITI VARCHAR(20), Data_Operazione VARCHAR(30))");
+                    " ID INTEGER PRIMARY KEY AUTO_INCREMENT, POS_ESATTA INTEGER, NUM_ESATTO INTEGER, VALORI_INSERITI VARCHAR(20), Data_Operazione VARCHAR(30), FOREIGN KEY (ID_COMB) REFERENCES COMBINATION(ID)");
             System.out.println("Accesso alla tabella!");
 
         } catch (SQLException se) {
