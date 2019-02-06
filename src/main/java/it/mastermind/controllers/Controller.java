@@ -45,5 +45,10 @@ public class Controller {
         }
     }
 
+    public void salvaGiocata()
+    {
+        this.tryService.save(input,esito);
+    }
+
 
 }
