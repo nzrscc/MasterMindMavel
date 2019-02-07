@@ -79,4 +79,5 @@ public class CheckerMasterMind implements Checker {
         return esito;
 
     }
+
 }

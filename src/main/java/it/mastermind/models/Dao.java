@@ -3,10 +3,7 @@ package it.mastermind.models;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.Properties;
 
 public class Dao {
@@ -55,7 +52,8 @@ public class Dao {
             this.stmt.executeUpdate("CREATE TABLE IF NOT EXISTS COMBINATION (ID INTEGER PRIMARY KEY AUTO_INCREMENT," +
                     " User VARCHAR(20), Soluzione VARCHAR(20), Data_Operazione VARCHAR(30))");
             this.stmt.executeUpdate("CREATE TABLE IF NOT EXISTS TRY (ID_COMB INTEGER ," +
-                    " ID INTEGER PRIMARY KEY AUTO_INCREMENT, POS_ESATTA INTEGER, NUM_ESATTO INTEGER, VALORI_INSERITI VARCHAR(20), Data_Operazione VARCHAR(30), FOREIGN KEY (ID_COMB) REFERENCES COMBINATION(ID)");
+                  " ID INTEGER , POS_ESATTA INTEGER, NUM_ESATTO INTEGER, VALORI_INSERITI VARCHAR(20)," +
+                    " Data_Operazione VARCHAR(30), PRIMARY KEY (ID, Data_operazione), FOREIGN KEY (ID_COMB) REFERENCES COMBINATION(ID))");
             System.out.println("Accesso alla tabella!");
 
         } catch (SQLException se) {
@@ -73,17 +71,40 @@ public class Dao {
         return this.connection;
     }
 
-    public void popolaTabella(String sql)
+    public void popolaTabella(StringBuilder sql)
     {
         try
         {
-            this.stmt.executeUpdate(sql);
-            System.out.print("Registrazione effettuata!");
+            this.stmt.executeUpdate(sql.toString());
+            //System.out.print("Registrazione effettuata!");
         }catch(SQLException se)
         {
             se.printStackTrace();
         }
     }
 
+    public StringBuilder seleziona(int indice, String nomeTabella)
+    {
+        StringBuilder selezionato=null;
+        String selezionata=null;
+        try {
+            ResultSet resultset = this.stmt.executeQuery("SELECT * FROM "+nomeTabella);
+            //System.out.println("Lettura informazioni...\n");
+            if(indice>1)
+            {
+                while(resultset.next()) {
+                    selezionato.append(resultset.getString(indice));
+                }
+            }else
+            {
+                this.stmt.executeUpdate("SELECT ID FROM "+nomeTabella);
+                selezionato.append(resultset.getString(indice));
+
+            }
+        } catch (SQLException se) {
+            se.printStackTrace();
+        }
+        return selezionato;
+    }
 
 }

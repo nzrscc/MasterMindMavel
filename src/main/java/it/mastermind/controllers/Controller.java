@@ -11,6 +11,7 @@ public class Controller {
     private int[] soluzione=new int[3];
     private int[] input=new int[3];
     private int[] esito=new int[2];
+    private int MaxID=0;
 
     public Controller(ValidatorService validatorService, CombinationService combinationService, TryService tryService) {
         this.combinationService=combinationService;
@@ -45,10 +46,12 @@ public class Controller {
         }
     }
 
-    public void salvaGiocata()
+    public void salvaGiocata(int nTentativi)
     {
-        this.tryService.save(input,esito);
+        this.tryService.save(nTentativi,input,esito);
     }
+
+
 
 
 }

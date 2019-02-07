@@ -15,6 +15,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        int contatoreTentativi=1;
         Scanner in=new Scanner(System.in);
         String scelta="SI";
         Controller controller=createContext();
@@ -22,11 +23,14 @@ public class Main {
         do{
             controller.verificaInput();
             controller.verificaCombinazione();
+            controller.salvaGiocata(contatoreTentativi);
+            contatoreTentativi++;
             if(!controller.esitoGiocata()) //equivale a dire che è falso
             {
-                System.out.print("Si vuole effettuare una nuova giocata? (SI o NO)");
+                System.out.print("Si vuole effettuare una nuova giocata? (SI o NO)\t");
                 scelta=in.nextLine();
                 scelta=scelta.toUpperCase();
+
             }
             else if(controller.esitoGiocata()) //equivale a dire che è vero
             {
