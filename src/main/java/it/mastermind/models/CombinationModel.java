@@ -34,9 +34,9 @@ public class CombinationModel {
         instanceDao.popolaTabella(sql);
     }
 
-    /*public int prendiID()
+    public int prendiID()
     {
-
-    }*/
+        return instanceDao.prendiID();
+    }
 
 }

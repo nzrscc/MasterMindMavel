@@ -15,7 +15,9 @@ public class TryModel  {
     {
         this.timeStamp = new SimpleDateFormat("dd.MM.yyyy - HH.mm.ss").format(new Date());
         StringBuilder sql=new StringBuilder();
-        sql.append("INSERT INTO TRY (ID, POS_ESATTA, NUM_ESATTO, VALORI_INSERITI, Data_Operazione) VALUES ('");
+        sql.append("INSERT INTO TRY (ID_COMB, ID, POS_ESATTA, NUM_ESATTO, VALORI_INSERITI, Data_Operazione) VALUES ('");
+        sql.append(instanceDao.prendiID());
+        sql.append("', '");
         sql.append(tentativi);
         sql.append("', '");
         sql.append(posEsatta);

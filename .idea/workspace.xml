@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897fc4dd-58d6-45b9-b4e0-81dd07b0bf64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/mastermind/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/mastermind/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/mastermind/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/mastermind/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterMind.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/mastermind/models/CombinationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/mastermind/models/CombinationModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/mastermind/models/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/mastermind/models/Dao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/mastermind/models/TryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/mastermind/models/TryModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/mastermind/services/TryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/mastermind/services/TryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/mastermind/services/utils/CheckerMasterMind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/mastermind/services/utils/CheckerMasterMind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/mastermind/models/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/mastermind/controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/mastermind/controllers/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/mastermind/models/CombinationModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/mastermind/models/CombinationModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/mastermind/models/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/mastermind/models/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/mastermind/models/TryModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/mastermind/models/TryModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/MasterMind.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,32 +23,89 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MasterMind@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MasterMind@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MasterMind@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MasterMind: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MasterMindMavel" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/controllers/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/controllers/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/Dao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="1155">
+              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1334#1335#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/ValidatorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,12 +114,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/TryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="210">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/CombinationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="390">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#805#806#0" expanded="true" />
@@ -78,14 +138,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/utils/Checker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/CombinationModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="450">
+              <caret line="35" selection-start-line="35" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,26 +165,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/TryModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="134" selection-start-line="29" selection-start-column="134" selection-end-line="29" selection-end-column="134" />
+            <state relative-caret-position="255">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/Dao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="101" column="71" selection-start-line="101" selection-start-column="71" selection-end-line="101" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#2686#2687#0" expanded="true" />
-                <element signature="e#2724#2725#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/main/java/it/mastermind/controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/mastermind/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/mastermind/services/TryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/mastermind/models/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/it/mastermind/models/CombinationModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/mastermind/models/TryModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/mastermind/models/Dao.java" />
@@ -187,44 +243,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mastermind" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -232,8 +286,8 @@
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -241,8 +295,8 @@
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -250,8 +304,8 @@
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -260,29 +314,27 @@
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MasterMind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterMind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterMindMavel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMindMavel" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549536034582" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549924071962" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Master_Mind" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -295,6 +347,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/it/mastermind" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,8 +366,10 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="it.mastermind.Main" />
-      <module name="MasterMind" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/it/mastermind" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="it.mastermind.*" />
@@ -339,6 +396,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MainTest.somma" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -356,6 +417,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549453460821</updated>
+      <workItem from="1549621756542" duration="65000" />
+      <workItem from="1549625018971" duration="16000" />
+      <workItem from="1549704192882" duration="17000" />
+      <workItem from="1549726316726" duration="115000" />
+      <workItem from="1549876781166" duration="650000" />
+      <workItem from="1549886777421" duration="168000" />
+      <workItem from="1549887213143" duration="1684000" />
+      <workItem from="1549894388625" duration="2132000" />
+      <workItem from="1549922485661" duration="1589000" />
+      <workItem from="1549924295874" duration="1544000" />
+      <workItem from="1549926023615" duration="11000" />
     </task>
     <servers />
   </component>
@@ -370,36 +442,44 @@
       <configuration name="MainTest.somma" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7991000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <frame x="-1" y="28" width="1368" height="713" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15482841" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991453" visible="true" weight="0.2530303" />
+      <window_info id="Structure" order="1" sideWeight="0.50085473" side_tool="true" weight="0.20984848" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50085473" side_tool="true" weight="0.20984848" />
+      <window_info id="Learn" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.814876" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34358975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3270869" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24958678" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32991454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32960895" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32954547" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32954547" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15482841" />
@@ -430,6 +510,9 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/App.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/it/mastermind/MainTest.java" />
@@ -448,30 +531,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/it/mastermind/services/utils/CheckerMasterMindTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/ValidatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/utils/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/utils/CheckerMasterMind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -479,64 +539,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/controllers/Controller.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5282a6f7-5b74-48cb-9677-813e9e4c3b62/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/CombinationModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
+    <entry file="das://5282a6f7-5b74-48cb-9677-813e9e4c3b62/schema/MasterMind/table/COMBINATION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/TryModel.java">
+    <entry file="das://5282a6f7-5b74-48cb-9677-813e9e4c3b62/schema/MasterMind/table/TRY">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="134" selection-start-line="29" selection-start-column="134" selection-end-line="29" selection-end-column="134" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="101" column="71" selection-start-line="101" selection-start-column="71" selection-end-line="101" selection-end-column="71" />
+        <state relative-caret-position="1155">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#2686#2687#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/ValidatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/TryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/CombinationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        <state relative-caret-position="390">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#805#806#0" expanded="true" />
@@ -545,22 +612,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/TryService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/services/utils/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/CombinationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" selection-start-line="35" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/models/TryModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/mastermind/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,11 +711,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MasterMind</last-edited>
+          <last-edited>MasterMindMavel</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
